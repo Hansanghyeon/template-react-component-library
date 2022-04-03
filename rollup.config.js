@@ -18,8 +18,10 @@ function setUpRollup({ input, output }) {
         config: {
           path: './postcss.config.js'
         },
-        extensions: ['.css'],
         extract: false,
+        modules: true,
+        use: ['sass'],
+        extensions: ['.css'],
       }),
       resolve(),
       commonjs(),
