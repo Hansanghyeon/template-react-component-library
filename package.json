@@ -31,6 +31,8 @@
     "@storybook/addon-essentials": "^6.5.0-alpha.55",
     "@storybook/addon-interactions": "^6.5.0-alpha.55",
     "@storybook/addon-links": "^6.5.0-alpha.55",
+    "@storybook/builder-webpack5": "^6.5.0-alpha.55",
+    "@storybook/manager-webpack5": "^6.5.0-alpha.55",
     "@storybook/react": "^6.5.0-alpha.55",
     "@storybook/testing-library": "^0.0.9",
     "@testing-library/react": "^13.0.0",
@@ -49,10 +51,10 @@
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
     "tslib": "^2.3.1",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.3",
+    "webpack": "^5.71.0"
   },
   "peerDependencies": {
     "react": "^18.0.0"
-  },
-  "dependencies": {}
+  }
 }
