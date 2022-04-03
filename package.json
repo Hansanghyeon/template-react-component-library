@@ -1,5 +1,5 @@
 {
-  "name": "@hansanghyeon/template-react-component-library",
+  "name": "@hansanghyeon/template-react-component-library2",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -31,6 +31,7 @@
     "@storybook/addon-essentials": "^6.5.0-alpha.55",
     "@storybook/addon-interactions": "^6.5.0-alpha.55",
     "@storybook/addon-links": "^6.5.0-alpha.55",
+    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/builder-webpack5": "^6.5.0-alpha.55",
     "@storybook/manager-webpack5": "^6.5.0-alpha.55",
     "@storybook/react": "^6.5.0-alpha.55",
@@ -38,6 +39,7 @@
     "@testing-library/react": "^13.0.0",
     "@types/jest": "^27.4.1",
     "@types/react": "^17.0.43",
+    "autoprefixer": "^10.4.4",
     "babel-jest": "^27.5.1",
     "babel-loader": "^8.2.4",
     "identity-obj-proxy": "^3.0.0",
@@ -50,6 +52,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
+    "tailwindcss": "^3.0.23",
     "tslib": "^2.3.1",
     "typescript": "^4.6.3",
     "webpack": "^5.71.0"

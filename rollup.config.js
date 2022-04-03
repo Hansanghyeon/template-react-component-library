@@ -14,10 +14,16 @@ function setUpRollup({ input, output }) {
     output,
     plugins: [
       peerDepsExternal(),
+      postcss({
+        config: {
+          path: './postcss.config.js'
+        },
+        extensions: ['.css'],
+        extract: false,
+      }),
       resolve(),
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),
-      postcss(),
       terser(),
     ],
   }
