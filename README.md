@@ -1,11 +1,10 @@
-- react
+- react 18
 - typescript
 - rollup
 - tailwindcss
 - postcss
 - storybook
-
-rollup과 storybook 전체에서 scss에서 tailwind 지원하는 방법이 실패해서 모두 css 혹은 CSS-in-JS로 tailwind를 사용합니다.
+- sass (scss)
 
 ---
 
