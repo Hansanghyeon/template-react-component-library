@@ -4,7 +4,7 @@ export interface ButtonProps {
   label: string;
 }
 
-const Button = (props: ButtonProps) => {
+const Button = (props: ButtonProps): JSX.Element => {
   return <button>{props.label}</button>;
 };
 
