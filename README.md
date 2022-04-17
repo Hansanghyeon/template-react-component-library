@@ -19,7 +19,7 @@ npm install @hansanghyeon/react-component-library
 ```
 
 ```jsx
-import MyCustomComponents from '@hansanghyeon/react-component-library
+import MyCustomComponents from '@hansanghyeon/react-component-library';
 
 const MyApp = () => {
   return (
